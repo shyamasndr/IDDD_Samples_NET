@@ -8,9 +8,7 @@ using SaaSOvation.AgilePM.Domain.Model.Discussions;
 
 namespace SaaSOvation.AgilePM.Domain.Model.Products.BacklogItems
 {
-    /// <summary>
-    /// Comments 1
-    /// </summary>
+    
     public class BacklogItemDiscussion : ValueObject
     {
         public static BacklogItemDiscussion FromAvailability(DiscussionAvailability availability)
